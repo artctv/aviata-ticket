@@ -1,0 +1,11 @@
+# Python stuff
+__pycache__
+
+
+# Python environment stuff
+.venv
+.env
+
+
+# pipenv stuff
+Pipfile.lock
