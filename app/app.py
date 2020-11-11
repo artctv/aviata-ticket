@@ -1,7 +1,7 @@
 from . import Client, ClientBuilder
 
 class App:
-
+    
     def __init__(self, config):
         self.config = config
         self._instances = []
@@ -14,8 +14,3 @@ class App:
 
     def __call__(self):
         return self._app_factory()
-
-    def run(self):
-        print('Running')
-
-        pass

@@ -33,12 +33,17 @@ class Client():
     def __str__(self):
         return 'Client'
 
+
+    # def get_
+
     def dirs_generator(self, obj):
         # if not hasattr(obj, '__iter__'):
         #     return TypeError()
 
         for value in obj:
             yield {'fly_from': value[0], 'fly_to': value[1]} #TODO
+
+
 
     def process_search(self):
         endpoint_data = self._storage.get_data('search')
@@ -50,3 +55,16 @@ class Client():
         # for r in response:
         #     print(r.text)
         #     time.sleep(0.1)
+
+
+    def get_storage_data(self):
+        pass
+
+    def set_storage_data(self):
+        pass
+
+    def update_storage_data(self):
+        pass
+
+    def del_storage_data(self):
+        pass

@@ -90,9 +90,9 @@ class Service():
             params = dirs.copy()
             params.update(dates)
             params['partner'] = 'picky'
-            response = method(url=url, headers=headers, params=params)
+            # response = method(url=url, headers=headers, params=params)
             # yield response
-            print(response.text)
+            # print(response.text)
 
 
 
