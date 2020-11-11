@@ -5,6 +5,8 @@ __pycache__
 # Python environment stuff
 .venv
 .env
+venv
+env
 
 
 # pipenv stuff

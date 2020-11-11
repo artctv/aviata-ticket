@@ -14,8 +14,8 @@ class Builder():
     def create_client(self):
         raise NotImplementedError()
 
-    def __call__(self):
-        return self.create_client()
+    def __call__(self, cls):
+        return self.create_client(cls)
 
 
 class ClientBuilder(Builder):
